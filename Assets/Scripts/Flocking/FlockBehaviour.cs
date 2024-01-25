@@ -99,7 +99,7 @@ public class FlockBehaviour : MonoBehaviour
     {
         while (true)
         {
-            HandleInputs();
+            HandleInputs(); // allows us to call the function
             yield return null;
         }
     }
